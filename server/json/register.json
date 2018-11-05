@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "type": "1",
+            "name": "人口表1",
+            "code": 123
+        },
+        {
+            "type": "1",
+            "name": "人口表2",
+            "code": 456
+        },
+        {
+            "type": "2",
+            "name": "车辆1",
+            "code": 789
+        }
+    ],
+    "msg": "success",
+    "success": true
+}

@@ -1,0 +1,45 @@
+.detailsTitle {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:1rem;
+}
+.detailsTime {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #e5e5e5;
+}
+.detailsContent {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:1rem;
+}
+.detailsReviewWrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+}
+.detailsReview {
+    width: 4rem;
+    text-align: right;
+}
+.detailsTextAreaWarp {
+    display: block;
+    width: 100%;
+}
+.detailsTextArea {
+    display: block;
+    height: 5rem;
+    width: 100%;
+}
+.reviewBtnWrap {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}

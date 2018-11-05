@@ -1,0 +1,26 @@
+.loginWrap {
+    background: #f3f3f3;
+    height: 100%;
+}
+.loginInput {
+    width: 10rem !important;
+    height: 2rem !important;
+    display: block !important;
+    margin: 0 auto !important;
+    margin-bottom: 1rem !important;
+}
+.contentWrap {
+    width: 100%;
+    padding: 2rem 0;
+}
+.btnWrap {
+    display: flex;
+    justify-content: space-around;
+}
+.enter,.register {
+    height: 2rem;
+}
+.vcodeWarp {
+    display: flex;
+    justify-content: space-around;
+}

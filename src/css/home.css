@@ -1,0 +1,45 @@
+.personalWrap {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    align-items: center;
+    background: #fffafa;
+}
+.arrowIcon {
+    margin-left: 0.5rem;
+}
+.userIcon {
+    margin-right: 0.5rem;
+}
+.userText {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+.createWrap {
+    height: 15rem;
+}
+.createText {
+    height: 10rem;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem;
+}
+.createBtn {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.titleText {
+    display: inline-block;
+    margin-top: 1rem;
+}
+.title {
+    width: 10rem !important;
+    margin-top: 1rem;
+}
+.heardBtn {
+    height: 1.5rem !important;
+    line-height: 1.5rem !important;
+    font-size: 8px !important;
+    margin-left: 0.5rem;
+}

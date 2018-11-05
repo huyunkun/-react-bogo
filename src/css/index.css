@@ -1,0 +1,18 @@
+.homeUl {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.homeLi {
+    height: 2rem;
+    list-style: none;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1890ff;
+}
