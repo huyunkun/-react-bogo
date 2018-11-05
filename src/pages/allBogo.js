@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { allbogo } from '../api/api';
 import { message, Icon } from 'antd';
-import { withRouter } from 'react-router';
 import '../css/allBogo.css';
-import { Link } from 'react-router-dom';
 
 import Heard from '../componentrs/heard'
 

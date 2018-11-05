@@ -125,6 +125,10 @@ class Index extends Component {
         return times
     }
 
+    toIndex() {
+        this.props.history.push('/');
+    }
+
     render() {
         return (
             <div className="homeWrap">
@@ -137,8 +141,9 @@ class Index extends Component {
                             <Button className="heardBtn" onClick={this.showCreate.bind(this)}>新建bogo</Button>
                         </div>
                         <div>
-                            <Icon type="user" className="userIcon"/>
                             <span className="userText">{this.state.userName}</span>
+                            <Icon type="user" className="userIcon"/>
+                            <Icon type="home" className="allBogoToHome" onClick={this.toIndex.bind(this)} />
                         </div>
                     </div> : null
                 }

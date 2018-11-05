@@ -106,16 +106,17 @@ class Details extends Component {
         return (
             <div>
                 <Heard title="详情"/>
-                {
-                    this.state.showPersonal ? 
+                
                     <div className="allWrap" >
                         <div >
                             <span className="userText" onClick={this.toHome.bind(this)}>{this.state.userName}</span>
-                            <Icon type="user" className="userIcon" onClick={this.toHome.bind(this)} />
+                            {
+                                this.state.showPersonal ? 
+                                <Icon type="user" className="userIcon" onClick={this.toHome.bind(this)} /> : null
+                            }
                             <Icon type="home" className="allBogoToHome" onClick={this.toIndex.bind(this)} />
                         </div>
-                    </div> : null
-                }
+                    </div>
                 <p className="detailsTitle">{ this.state.detailsData.writeName }: { this.state.detailsData.title }</p>
                 <p className="detailsTime">{ this.formatTime(this.state.detailsData.createdAt) }</p>
                 <p className="detailsContent">{ this.state.detailsData.content }</p>
